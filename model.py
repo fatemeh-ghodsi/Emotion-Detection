@@ -45,7 +45,7 @@ def main():
     nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
 
     # Update this path to your dataset location
-    data_path = r"D:\jangoProject\nlp\EmotionDetection\isear.csv"
+    data_path = "data\isear.csv"
 
     # Load and clean data
     df = load_and_clean_data(data_path)
@@ -123,3 +123,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
